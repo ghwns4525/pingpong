@@ -29,7 +29,7 @@ public class Ball : MonoBehaviour
     private float hp = 100;
     private bool isGameOver = false;
     [SerializeField] private int life = 1;
-    private int currentLife = 0;
+    [SerializeField]private int currentLife = 0;
     private bool isDie = false;
 
     // Á¡¼ö

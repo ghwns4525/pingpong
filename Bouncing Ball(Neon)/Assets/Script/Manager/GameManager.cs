@@ -8,7 +8,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     GameObject popup_GameOver;
-    Ball cs_Ball;
+    [SerializeField]Ball cs_Ball;
     private bool isRetry = false;
     [SerializeField] TextMeshProUGUI txt_Score;
     [SerializeField] TextMeshProUGUI txt_GameOverScore;
